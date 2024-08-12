@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Roboliga</title>
+  
+  <!-- Included CSS Files (Uncompressed) -->
+  <!--
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  -->
+  
+  <!-- Included CSS Files (Compressed) -->
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
+
+  <script src="javascripts/modernizr.foundation.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+  <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+  </script>
+</head>
+<body onLoad="MM_preloadImages('https://belgrano.vaneduc.edu.ar/media/10930/roboliga-20222.jpg')">
+<!-- Facebook -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- close Facebook -->
+
+
+  <div class="row bottomB topB">
+    <div class="two columns text-right"> <img class="onlyBigScreen robot text-right" src="images/robot-header.png" alt="" /></div>
+	<div class="four columns"><a href="http://www.uai.edu.ar/" target="_blank"><img class="uai topD onlyBigScreen" src="images/uai.png" alt="UAI" /></a></div>	
+</div>  
+
+
+<!-- <div class="twelve columns paddingCero text-center margin0 blueRow  bottomB"><h5>XIV Olimpiadas Argentina de Robotica | XIII Feria Nacional de Proyectos Rob&oacute;ticos</h5></div>-->
+
+    <div class="twelve columns paddingCero onlyBigScreen">
+      <div id="featured">
+		<img src="images/001.jpg" alt="" />
+		<img src="images/002.jpg" alt="" />
+		<img src="images/003.jpg" alt="" />		
+		<img src="images/004.jpg" alt="" />				
+      </div>
+    </div>
+
+<div class="row">
+		<div class="nine columns">
+		  <h2>Roboliga 2024</h2>
+		  <h1>Final de Olimpiadas y Ferias de Proyectos Rob&oacute;ticos </h1>
+<!--		  <a href="https://uai.edu.ar/transmision-en-vivo" target="_blank" onMouseOver="MM_swapImage('Image23','','https://belgrano.vaneduc.edu.ar/media/10938/roboliga-2022b.jpg',1)" onMouseOut="MM_swapImgRestore()"><img id="Image23" src="https://belgrano.vaneduc.edu.ar/media/10937/roboliga-2022a.jpg"></a><br>-->
+		  <h3>Viernes 08 de Noviembre  2024</h3>
+
+<!--	          			<div class="twelve columns">
+                    		<a href="https://www.youtube.com/watch?v=33NwFHXSKZM&t=1s" target="_blank" class="button twelve">TRANSMISIÓN EN VIVO</a>
+                     </div>
+-->
+		  <div class="six columns">
+		    <div class="row">
+		      <div class="seven columns topB"><img src="images/roboliga.png" alt="Roboliga" /></div>
+		      <div class="five columns">
+		        <p class="robocup">Coordinador Argentino de la Robocup</p>
+	          </div>
+	        </div>
+	      </div>
+		  <p class="timeline">Cierre de Inscripción Viernes 30 de Octubre de 2024</p>
+		  <p class="timeline">Para una comunicacicón más fluida y estar en conocimiento de las últimas novedades, aconsejamos seguir nuestro sitio en Facebook, más información : 
+          <a href="https://www.facebook.com/Roboliga" target="_blank">https://www.facebook.com/Roboliga</a></p>
+         
+  </div>
+		<div class="three columns">			
+			<div class="twelve columns panel marginIntro">		<a href="edicion-2024/default.asp" target="_self" class="button twelve">Ingresar</a></div>
+                        		
+  </div>
+
+</div>
+
+<div class="row"><hr />
+	<div class="nine columns">
+		<h4>La Roboliga inicio en el a&ntilde;o 2000 y contin&uacute;a.</h4>
+		<p>Entre sus objetivos se encuentra:</p>
+	  <ul> 
+			<li>Promover el desarrollo del  pensamiento l&oacute;gico formal de  las niñas y de los ni&ntilde;os a partir de los  11 a&ntilde;os de edad.</li>
+			<li>Fomentar el trabajo en grupo, organizando y planificando las tareas necesarias para llegar a la resoluci&oacute;n de un problema. </li>
+			<li>Generar espacios de discusi&oacute;n con respecto a las infinitas soluciones posibles que presentan los desaf&iacute;os en rob&oacute;tica. </li>
+			<li>Obtener los recursos necesarios para reducir la brecha digital en los colegios que no acceden a recursos educativos novedosos. </li>
+			<li>Generar conciencia en  las chicas y  los chicos con respecto al reemplazo del trabajo humano por el trabajo con robots, y las consecuencias que esto trae aparejado en la organizaci&oacute;n econ&oacute;mica de nuestra sociedad.</li>
+		    <li>Promover la vocación temprana en       carreras STEM.</li>
+               <li>Generar condiciones de igualdad de       género en el aprendizaje y la aplicación de la robótica.<!--	  <p class="robocup"><strong>Declaración de interés por Honorable Senado de la Nación VSP-766/18 para las XVII Olimpiadas Argentinas de Robótica // XVI Feria Nacional de Proyectos Robóticos. </strong></p>
+	  <p class="robocup" align="center"> <img src="images/logo-senado-de-la-nacion.jpg" alt="sena de la Nación Argentina" width="330" height="137"></p>  -->	</li>
+	  </ul>
+	</div>
+	<div class="three columns">
+	  <p>&nbsp;</p>
+	  <p>Cualquier consulta, comunicarse al 4301-5323; 4301-5240; 4301-5248 int 9103 o a <a href="mailto:info@roboliga.edu.ar">info@roboliga.edu.ar</a>
+	    <!-- end social plugins -->	
+  </p>
+</div>
+</div>
+
+<div class="row">
+	<div class="twelve columns">
+		<hr />
+		<h2>La Roboliga en fotos</h2>
+			<ul class="block-grid twelve-up mobile-four-up" data-clearing>
+            
+			  <li><a href="images/2022/olimpiadas/rob_2022_olimpiadas-1 .jpg"><img data-caption="Im&aacute;genes de la Edici&oacute;n 2022" src="images/2022/olimpiadas/rob_2022_olimpiadas-1 s.jpg"></a></li>
+			  <li><a href="images/2022/feria/rob_2022_feria-21 .JPG"><img data-caption="Im&aacute;genes de la Edici&oacute;n 2022" src="images/2022/feria/rob_2022_feria-21 s.jpg"></a></li>
+			  <li><a href="images/2022/olimpiadas/rob_2022_olimpiadas-11 .jpg"><img data-caption="Im&aacute;genes de la Edici&oacute;n 2022" src="images/2022/olimpiadas/rob_2022_olimpiadas-11 s.jpg"></a></li>
+			  <li><a href="images/2022/olimpiadas/rob_2022_olimpiadas-26 .jpg"><img data-caption="Im&aacute;genes de la Edici&oacute;n 2022" src="images/2022/olimpiadas/rob_2022_olimpiadas-26 s.jpg"></a></li>
+              
+			  <li><a href="images/2022/feria/rob_2022_feria-83 .jpg"><img data-caption="Im&aacute;genes de la Edici&oacute;n 2019" src="images/2022/feria/rob_2022_feria-83 s.jpg"></a></li>
+			  <li><a href="images/2022/olimpiadas/rob_2022_olimpiadas-64 .jpg"><img data-caption="Im&aacute;genes de la Edici&oacute;n 2022" src="images/2022/olimpiadas/rob_2022_olimpiadas-64 s.jpg"></a></li>
+			  <li><a href="images/2022/feria/rob_2022_feria-21 .JPG"><img data-caption="Im&aacute;genes de la Edici&oacute;n 2022" src="images/2022/feria/rob_2022_feria-21 s.jpg"></a></li>
+			  <li><a href="images/2022/feria/rob_2022_feria-51 .JPG"><img data-caption="Im&aacute;genes de la Edici&oacute;n 2022" src="images/2022/feria/rob_2022_feria-51 s.jpg"></a></li>
+			  <li><a href="images/2022/olimpiadas/rob_2022_olimpiadas-53 .jpg"><img data-caption="Im&aacute;genes de la Edici&oacute;n 2022" src="images/2022/olimpiadas/rob_2022_olimpiadas-53 s.jpg"></a></li>
+              
+			  <li><a href="images/2022/premiacion/rob_2022_premiacion-2 .jpg"><img data-caption="Im&aacute;genes de la Edici&oacute;n 2022" src="images/2022/premiacion/rob_2022_premiacion-2 s.jpg"></a></li>
+			  <li><a href="images/2022/premiacion/rob_2022_premiacion-6 .jpg"><img data-caption="Im&aacute;genes de la Edici&oacute;n 2022" src="images/2022/premiacion/rob_2022_premiacion-6 s.jpg"></a></li>
+			  <li><a href="images/2022/premiacion/rob_2022_premiacion-41 .jpg"><img data-caption="Im&aacute;genes de la Edici&oacute;n 2022" src="images/2022/premiacion/rob_2022_premiacion-41 s.jpg"></a></li>
+		</ul>				
+	</div>
+	<div class="twelve columns text-right">
+		 <p>Fotos: &raquo; <a href="edicion-2022/fotos-olimpiadas.asp">Olimpiadas</a> | 
+		 &raquo; <a href="edicion-2022/fotos-feria.asp">Feria</a> |
+		 &raquo; <a href="edicion-2022/fotos-premiacion.asp">Premiaci&oacute;n</a></p>
+	</div>	
+</div>	
+	<hr />
+</div>
+
+
+<!-- 
+<div class="row">
+	<div class="twelve columns">
+		<hr />
+		<h2>2016 - La Roboliga en fotos</h2>
+			<ul class="block-grid twelve-up mobile-four-up" data-clearing>
+            
+			  <li><a href="images/2016/olimpiadas/rob_2016_olimpiadas_ (1).jpg"><img data-caption="Im&aacute;genes de la Edici&oacute;n 2016" src="images/2016/olimpiadas/rob_2016_olimpiadas_s (1).jpg"></a></li>
+			  <li><a href="images/2016/olimpiadas/rob_2016_olimpiadas_ (21).jpg"><img data-caption="Im&aacute;genes de la Edici&oacute;n 2016" src="images/2016/olimpiadas/rob_2016_olimpiadas_s (21).jpg"></a></li>
+			  <li><a href="images/2016/olimpiadas/rob_2016_olimpiadas_ (51).jpg"><img data-caption="Im&aacute;genes de la Edici&oacute;n 2016" src="images/2016/olimpiadas/rob_2016_olimpiadas_s (51).jpg"></a></li>
+			  <li><a href="images/2016/olimpiadas/rob_2016_olimpiadas_ (91).jpg"><img data-caption="Im&aacute;genes de la Edici&oacute;n 2016" src="images/2016/olimpiadas/rob_2016_olimpiadas_s (91).jpg"></a></li>
+              
+			  <li><a href="images/2016/feria/rob_2016_feria_ (100).jpg"><img data-caption="Im&aacute;genes de la Edici&oacute;n 2016" src="images/2016/feria/rob_2016_feria_s (100).jpg"></a></li>
+			  <li><a href="images/2016/feria/rob_2016_feria_ (10).jpg"><img data-caption="Im&aacute;genes de la Edici&oacute;n 2016" src="images/2016/feria/rob_2016_feria_s (10).jpg"></a></li>
+			  <li><a href="images/2016/feria/rob_2016_feria_ (21).jpg"><img data-caption="Im&aacute;genes de la Edici&oacute;n 2016" src="images/2016/feria/rob_2016_feria_s (21).jpg"></a></li>
+			  <li><a href="images/2016/feria/rob_2016_feria_ (51).jpg"><img data-caption="Im&aacute;genes de la Edici&oacute;n 2016" src="images/2016/feria/rob_2016_feria_s (51).jpg"></a></li>
+			  <li><a href="images/2016/feria/rob_2016_feria_ (81).jpg"><img data-caption="Im&aacute;genes de la Edici&oacute;n 2016" src="images/2016/feria/rob_2016_feria_s (81).jpg"></a></li>
+              
+			  <li><a href="images/2016/premiacion/rob_2016_premiacion_ (3).jpg"><img data-caption="Im&aacute;genes de la Edici&oacute;n 2016" src="images/2016/premiacion/rob_2016_premiacion_s (3).jpg"></a></li>
+			  <li><a href="images/2016/premiacion/rob_2016_premiacion_ (31).jpg"><img data-caption="Im&aacute;genes de la Edici&oacute;n 2016" src="images/2016/premiacion/rob_2016_premiacion_s (31).jpg"></a></li>
+			  <li><a href="images/2016/premiacion/rob_2016_premiacion_ (41).jpg"><img data-caption="Im&aacute;genes de la Edici&oacute;n 2016" src="images/2016/premiacion/rob_2016_premiacion_s (41).jpg"></a></li>
+		</ul>				
+	</div>
+	<div class="twelve columns text-right">
+		 <p>Fotos: &raquo; <a href="edicion-2016/fotos-olimpiadas.asp">Olimpiadas</a> | 
+		 &raquo; <a href="edicion-2016/fotos-feria.asp">Feria</a> |
+		 &raquo; <a href="edicion-2016/fotos-premiacion.asp">Premiaci&oacute;n</a></p>
+	</div>	
+</div>	
+	<hr />
+</div>
+
+
+
+<div class="row">
+	<div class="twelve columns">
+			<a class="twitter-timeline" href="https://twitter.com/roboligauai" data-widget-id="400720421349109760">Tweets por @roboligauai</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div>
+
+</div>
+--> 
+
+<div class="row bottomB topA">
+<hr />
+			<div class="three mobile-two columns text-center  levelTop"> <a href="http://caeti.uai.edu.ar/" target="_blank"><img class="caeti" src="images/caeti.png" alt="CAETI" /></a>
+</div>		
+			<div class="three mobile-two columns text-center  levelTop"> <a href="http://www.uai.edu.ar/facultades/tecnologia-informatica/default.asp" target="_blank"><img class="ti" src="images/ti.png" alt="TI" /></a>
+</div>					
+			<div class="six columns text-center  levelTop"> <a href="http://www.uai.edu.ar/" target="_blank"><img class="uai" src="images/uai.png" alt="UAI" /></a>
+			</div>	
+</div>
+<hr />
+<div class="twelve columns foot">
+	<div class="row">
+		<div class="four columns">
+			<p><strong>Informes e inscripci&oacute;n:</strong><br />
+			Exclusivamente por email a<br /><a href="mailto:info@roboliga.edu.ar">info@roboliga.edu.ar</a></p>
+		</div>
+		<div class="four columns">
+			<p><strong>Colegio Gral. Belgrano </strong><br />
+			General Lavalle 1275, esquina Ratti <br />Ituzaingó, Bs. As.</p>
+		</div>
+		<div class="four columns">
+			<p><strong>Tel&eacute;fonos:</strong><br  />
+			4301 5323<br />
+			4301 5240<br />4301 5248<br />int 9103</p>
+		</div>				
+	</div>
+</div>
+  
+
+  
+  <!-- Included JS Files (Uncompressed) -->
+  <!--
+  <script src="javascripts/jquery.js"></script>
+  <script src="javascripts/jquery.foundation.mediaQueryToggle.js"></script>
+  <script src="javascripts/jquery.foundation.forms.js"></script>
+  <script src="javascripts/jquery.event.move.js"></script>
+  <script src="javascripts/jquery.event.swipe.js"></script>
+  <script src="javascripts/jquery.foundation.reveal.js"></script>
+  <script src="javascripts/jquery.foundation.orbit.js"></script>
+  <script src="javascripts/jquery.foundation.navigation.js"></script>
+  <script src="javascripts/jquery.foundation.buttons.js"></script>
+  <script src="javascripts/jquery.foundation.tabs.js"></script>
+  <script src="javascripts/jquery.foundation.tooltips.js"></script>
+  <script src="javascripts/jquery.foundation.accordion.js"></script>
+  <script src="javascripts/jquery.placeholder.js"></script>
+  <script src="javascripts/jquery.foundation.alerts.js"></script>
+  <script src="javascripts/jquery.foundation.topbar.js"></script>
+  <script src="javascripts/jquery.foundation.joyride.js"></script>
+  <script src="javascripts/jquery.foundation.clearing.js"></script>
+  <script src="javascripts/jquery.foundation.magellan.js"></script>
+  
+  -->
+  
+  <!-- Included JS Files (Compressed) -->
+<script src="javascripts/foundation.min.js"></script>
+  
+  <!-- Initialize JS Plugins -->
+<script src="javascripts/app.js"></script>
+
+  
+    <script>
+    $(window).load(function(){
+      $("#featured").orbit({
+			animation: 'fade',						  } 
+						   );
+    });
+    </script> 
+  
+</body>
+</html>
